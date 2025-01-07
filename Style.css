@@ -1,0 +1,156 @@
+/*
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial;
+    border:border-box;
+}
+    */
+/*.body{
+   min-height:100vh;
+   background-image:url("") no-repeat;
+   background-size:cover;
+   background-position:center;
+}*/
+/*
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:90vw;
+    height:60px;
+    padding:20px 100px;
+    background-color:blueviolet;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    z-index:100;
+}
+.logo{
+    font-size:32px;
+    color:white;
+    text-decoration:none;
+    font-weight:700;
+}
+.navbar a{
+    position:relative;
+    font-size:18px;
+    color:white;
+    font-weight:500;
+    text-decoration: none;
+    margin-left:40px;
+}
+.navbar a::before{
+    content:'';
+    position:absolute;
+    top:100%;
+    left:0;
+    width:0;
+    height:2px;
+    background:white;
+   //transition:.3s;
+}
+/*
+.navbar a:hover::before{
+    width:100%;
+}
+button{
+    padding:9px 25px;
+    background-color: white;
+    border:none;
+    border-radius:50px;
+    cursor:pointer;
+   //transition:.3s;
+
+
+button:hover{
+    background-color:rgb(198, 176, 218);
+}
+*/
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Added sans-serif fallback */
+    box-sizing: border-box; /* Fixed the typo */
+}
+
+/* Body background styling (uncomment if needed) */
+body {
+    min-height: 100vh;
+    background-image: url("path/to/your-image.jpg"); /* Path to image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Fixed Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 60px;
+    padding: 20px 100px;
+    background-color: #8a2be2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Keeps logo on left and nav on right */
+    z-index: 100;
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Navbar Styling (Shift navbar links to the right) */
+.navbar {
+    display: flex;
+    margin-left: auto; /* This ensures navbar is aligned to the right */
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+/* Navbar Link Hover Effect */
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.3s ease; /* Added transition */
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+/* Call-to-action Button Styling */
+.cta {
+    margin-left: 30px; /* Space between navbar and the button */
+}
+
+button {
+    padding: 10px 30px; /* More padding for aesthetics */
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added transition */
+}
+
+button:hover {
+    background-color: rgb(198, 176, 218); /* Hover effect */
+}
