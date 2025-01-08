@@ -67,6 +67,7 @@ button:hover{
     background-color:rgb(198, 176, 218);
 }
 */
+/*Navbar*/
 /* Universal Reset */
 * {
     margin: 0;
@@ -138,7 +139,7 @@ body {
 }
 
 /* Call-to-action Button Styling */
-.cta {
+.btn {
     margin-left: 30px; /* Space between navbar and the button */
 }
 
@@ -153,4 +154,173 @@ button {
 
 button:hover {
     background-color: rgb(198, 176, 218); /* Hover effect */
+}
+
+/*login page*/
+
+/* Body Styling */
+body {
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.close-btn:hover {
+    background-color: white;
+    color: #0a0a0a; /* Change color when hovered */
+}
+
+/* Login Container (make sure it has a relative position) */
+.login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    position: relative; /* Ensure close button is positioned correctly */
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+/*role selection*/
+.role-selection {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.role-selection label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.role-selection select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+.role-selection select:focus {
+    border-color: #4CAF50;
+}
+
+/* Input Group */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #4CAF50;
+}
+
+/* Password Input Wrapper */
+.password-input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.password-input-wrapper input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+.password-input-wrapper input:focus {
+    border-color: #4CAF50;
+}
+
+/* Eye Icons Styling */
+.password-input-wrapper i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    cursor: pointer;
+    color: #999;
+}
+
+#showPassword {
+    right: 10px;
+}
+
+#hidePassword {
+    right: 10px;
+    display: none;  /* Initially hide the 'hide' icon */
+}
+
+/* Login Button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #7c3aed;
+}
+
+/* Sign Up Link */
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.signup-link a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
 }
