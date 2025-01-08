@@ -8,14 +8,6 @@
     box-sizing: border-box; /* Fixed the typo */
 }
 
-/* Body background styling (uncomment if needed) */
-body {
-    min-height: 100vh;
-    background-image: url("path/to/your-image.jpg"); /* Path to image */
-    background-size: cover;
-    background-position: center;
-}
-
 /* Fixed Header */
 .header {
     position: fixed;
@@ -88,16 +80,17 @@ button:hover {
     background-color: rgb(198, 176, 218); /* Hover effect */
 }
 
-/*sign-up page*/
-
-/* Body Styling */
-body {
+/* Page container to apply background and centering */
+.page-container {
     background-color: #f0f4f8;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+
+/*sign-up page*/
+
 /* Close Button */
 .close-btn {
     position: absolute;
