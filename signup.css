@@ -64,20 +64,22 @@
 
 /* Call-to-action Button Styling */
 .btn {
-    margin-left: 30px; /* Space between navbar and the button */
+    margin-left: 30px;
 }
 
 button {
-    padding: 10px 30px; /* More padding for aesthetics */
+    padding: 10px 20px;
     background-color: white;
-    border: none;
-    border-radius: 50px;
+    color: #8a2be2;
+    border: 2px solid white;
+    border-radius: 25px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Added transition */
+    transition: 0.3s ease;
 }
 
 button:hover {
-    background-color: rgb(198, 176, 218); /* Hover effect */
+    background-color: #6a1bb0;
+    color: white;
 }
 
 /* Page container to apply background and centering */
