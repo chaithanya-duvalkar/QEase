@@ -122,6 +122,39 @@ button:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.btn-primary {
+    padding: 10px 25px;
+    background-color: #8a2be2;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #6a1bb0;
+}
+
+.btn-secondary {
+    padding: 10px 25px;
+    background-color: #ffffff;
+    color: #8a2be2;
+    border: 2px solid #8a2be2;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-secondary:hover {
+    background-color: #8a2be2;
+    color: white;
+}
+
 /* Features Section */
 .features {
     padding: 80px 20px;
